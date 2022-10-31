@@ -1,0 +1,17 @@
+class Solution
+{
+public:
+    bool containsDuplicate(vector<int> &nums)
+    {
+        set<int> final;
+        for (int i = 0; i < nums.size(); i++)
+        {
+            final.insert(nums[i]);
+        }
+        if (final.size() != nums.size())
+        {
+            return true;
+        }
+        return false;
+    }
+};
