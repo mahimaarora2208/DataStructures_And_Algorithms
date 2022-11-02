@@ -1,13 +1,61 @@
-class Solution {
+class Solution1
+{
     /**
-      [-4,0,1,2,3] => [16,0,1,4,9] => [0,1,4,9,16] 
+      [-4,0,1,2,3] => [16,0,1,4,9] => [0,1,4,9,16]
+      Approach 1:
+      TC --> O(nlogn) due to sort algorithm
+      SC --> O(1)
+
      */
 public:
-    vector<int> sortedSquares(vector<int>& nums) {
-        for(int i = 0; i< nums.size(); i++){
-            nums[i] = nums[i]*nums[i];
-        } 
-        sort(nums.begin(),nums.end());
-        return nums;    
+    vector<int> sortedSquares(vector<int> &nums)
+    {
+        for (int i = 0; i < nums.size(); i++)
+        {
+            nums[i] = nums[i] * nums[i];
+        }
+        sort(nums.begin(), nums.end());
+        return nums;
+    }
+};
+
+/**
+     [-4,0,1,2,3] => [16,0,1,4,9] => [0,1,4,9,16]
+     Approach 1:
+     TC --> O(N) 
+     SC --> O(1)
+
+    */
+class Solution2
+{
+public:
+    vector<int> sortedSquares(vector<int> &nums)
+    {
+        // for(int i = 0; i< nums.size(); i++){
+        //     nums[i] = nums[i]*nums[i];
+        // }
+        // sort(nums.begin(),nums.end());
+        // return nums;
+
+        int start = 0;
+        int end = nums.size() - 1;
+        vector<int> result(end + 1); // we need to specify the size of this vector(should be equal to nums.size())
+        int i = end;
+        while (i >= 0)
+        {
+            if (nums[start] * nums[start] > nums[end] * nums[end])
+            {
+                result[i] = nums[start] * nums[start];
+                i--;
+                start++;
+            }
+            else
+            {
+                result[i] = nums[end] * nums[end];
+                i--;
+                end--;
+            }
+        }
+        return result;
     }
 };
