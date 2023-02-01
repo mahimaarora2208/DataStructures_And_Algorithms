@@ -1,8 +1,8 @@
 /**
  * Input: prices = {7,1,5,3,6,4}
- * Need: Max Profit --> max(prices[i] - prices[i-1]
- * e.g. 1-7 = -6 ; 5-1 = 4 .....6-1 = 5 but prices[i-1] needs to be the minimum value.
- * Use kadane's algorithm to update prices[i] to minimum value
+ * Need: Max Profit --> max(prices[i] - minVal)
+ * e.g. 1-7 = -6 ; 5-1 = 4 .....6-1 = 5
+ * Use kadane's algorithm to get minVal
  * 
  */
 
