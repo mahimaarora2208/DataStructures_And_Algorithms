@@ -1,30 +1,42 @@
 /**
- * Input: prices = {7,1,5,3,6,4}
- * Need: Max Profit --> max(prices[i] - minVal)
- * e.g. 1-7 = -6 ; 5-1 = 4 .....6-1 = 5
- * Use kadane's algorithm to get minVal
- * 
+ *
  */
 
 #include <iostream>
 #include <vector>
 using namespace std;
 
-int maxProfit(vector<int>& prices) {
-    int minVal = prices[0];
-    int profit = 0;
-    for (int i = 1; i < prices.size(); i++){
-        profit = max(profit, prices[i] - minVal);
-        minVal = min(prices[i], minVal);
-    }
-    return profit; 
+vector<int> intersect(vector<int> &nums1, vector<int> &nums2)
+{
+    int minArr = min(nums1.size(), nums2.size());
+    int count = 0;
+    vector<int> result;
+
+    for (int i = 0; i < nums1.size(); i++)
+        {
+            for (int j = 0; j < nums2.size(); j++)
+            {
+                if (nums1[i] == nums2[j])
+                {
+                    if (result.size() != minArr)
+                    {
+                        result.push_back(nums1[i]);
+                        count++;
+                    }
+                    else{
+                        break;
+                    }  
+                }
+            }
+        }
+
+    return result;
 }
 
 int main(int argc, char const *argv[])
 {
-    /* code */
-    vector<int> input{7,6,5,4,3,2,1}; 
-    int result = maxProfit(input);
-    cout << "Result: " << result;
+    vector<int> nums1{1, 2, 2, 1};
+    vector<int> nums2{2};
+    vector<int> result = intersect(nums1, nums2);
     return 0;
 }
