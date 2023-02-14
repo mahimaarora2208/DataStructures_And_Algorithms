@@ -13,7 +13,11 @@ This repository holds solutions for the leetcode challenges as well as implement
 ### Ques 167 Two Sum II - 1-indexed (Medium)
 ### Ques 121 Best Time to Buy and Sell Stock (Easy)
 ### Ques 350 Intersection of Two Arrays II (Easy)
-### Ques 02 Add Two Numbers (Linked Lists) (Mendium)
+### Ques 02 Add Two Numbers (Linked List) (Medium)
+### Ques 817 Linked List Components (Linked List) (Medium)
+### Ques 206 Reverse Linked List (Linked List) (Easy)
+
+
 
 ## Algorithms
 ### Sorting Algorithms(Bubble Sort, Insertion Sort, Merge Sort, Heap Sort)
