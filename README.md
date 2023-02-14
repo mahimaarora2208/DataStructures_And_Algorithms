@@ -1,6 +1,7 @@
-# leetcode solutions
-This repository holds my solutions for the leetcode challenges.
+# leetcode solutions and algorithm implementations
+This repository holds solutions for the leetcode challenges as well as implementation of different algorithms.
 
+## Leetcode Challenges
 ### Ques 704 - Binary Search (Iterative Method) (Easy)
 ### Ques 217 - Contains duplicate (Easy)
 ### Ques 53 - Maximum SubArray (Kadane's dynamic programming method) (Easy)
@@ -13,6 +14,11 @@ This repository holds my solutions for the leetcode challenges.
 ### Ques 121 Best Time to Buy and Sell Stock (Easy)
 ### Ques 350 Intersection of Two Arrays II (Easy)
 ### Ques 02 Add Two Numbers (Linked Lists) (Mendium)
+
+## Algorithms
+### Sorting Algorithms(Bubble Sort, Insertion Sort, Merge Sort, Heap Sort)
+### Maximum SubArray Algorithms (Brute Force, Recursion, Kadane's)
+   
     
 
 
