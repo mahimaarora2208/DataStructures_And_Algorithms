@@ -16,6 +16,8 @@ This repository holds solutions for the leetcode challenges as well as implement
 ### Ques 02 Add Two Numbers (Linked List) (Medium)
 ### Ques 817 Linked List Components (Linked List) (Medium)
 ### Ques 206 Reverse Linked List (Linked List) (Easy)
+### Ques 203 Remove Element Linked List (Linked List) (Easy)
+### Ques 200. Number of Islands (Medium) (Tesla Interview Question)
 
 
 
