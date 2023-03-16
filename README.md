@@ -18,7 +18,11 @@ This repository holds solutions for the leetcode challenges as well as implement
 ### Ques 206 Reverse Linked List (Linked List) (Easy)
 ### Ques 203 Remove Element Linked List (Linked List) (Easy)
 ### Ques 200. Number of Islands (Medium) (Tesla Interview Question)
-
+### Ques 1578. Minimum Time to Make Rope Colorful (Medium)
+### Ques 509. Fibonacci Series (Easy)(Dynamic Programming)
+### Ques 1137. N-th Tribonacci Number (Easy)(Dynamic Programming)
+### Ques 1578. Minimum Time to Make Rope Colorful (Medium)
+### Ques 1578. Minimum Time to Make Rope Colorful (Medium)
 
 
 ## Algorithms
