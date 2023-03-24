@@ -22,7 +22,9 @@ This repository holds solutions for the leetcode challenges as well as implement
 ### Ques 509 - Fibonacci Series (Easy)(Dynamic Programming)
 ### Ques 1137 - N-th Tribonacci Number (Easy)(Dynamic Programming)
 ### Ques 70 - Climbing Stairs (Easy)(Dynamic Programming)
-### Ques 746 - Minimum Cost Climbing Stairs (Medium)
+### Ques 746 - Minimum Cost Climbing Stairs (Easy)(Dynamic Programming)
+### Ques 198 - House Robber (Medium)(Dynamic Programming)
+### Ques 213 - House Robber II (Medium)(Dynamic Programming)
 
 ## Algorithms
 ### Sorting Algorithms(Bubble Sort, Insertion Sort, Merge Sort, Heap Sort)
