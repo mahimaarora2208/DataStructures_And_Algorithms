@@ -17,7 +17,7 @@ This repository holds solutions for the leetcode challenges as well as implement
 ### Ques 817 - Linked List Components (Linked List) (Medium)
 ### Ques 206 - Reverse Linked List (Linked List) (Easy)
 ### Ques 203 - Remove Element Linked List (Linked List) (Easy)
-### Ques 200 - Number of Islands (Medium) (Tesla Interview Question)
+### Ques 200 - Number of Islands (Medium)(Graph Theory)(Tesla Interview Question)
 ### Ques 1578 - Minimum Time to Make Rope Colorful (Medium)
 ### Ques 509 - Fibonacci Series (Easy)(Dynamic Programming)
 ### Ques 1137 - N-th Tribonacci Number (Easy)(Dynamic Programming)
@@ -25,6 +25,9 @@ This repository holds solutions for the leetcode challenges as well as implement
 ### Ques 746 - Minimum Cost Climbing Stairs (Easy)(Dynamic Programming)
 ### Ques 198 - House Robber (Medium)(Dynamic Programming)
 ### Ques 213 - House Robber II (Medium)(Dynamic Programming)
+### Ques 1254 - Number of Closed Islands (Medium)(Graph Theory)
+### Ques 733 - Flood Fill (Easy)(Graph Theory)
+### Ques 695 - Maximum Area of Islands (Medium)(Graph Theory)
 
 ## Algorithms
 ### Sorting Algorithms(Bubble Sort, Insertion Sort, Merge Sort, Heap Sort)
